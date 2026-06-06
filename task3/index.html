@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторная 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="content">
+    <div id="data-form" class="data-form">
+      <label>Сторона основания (px): <input type="number" id="base" value="200" min="50" max="400"></label>
+      <label>Высота (px): <input type="number" id="height" value="150" min="50" max="400"></label>
+      <div>Координаты верхнего левого угла:</div>
+      <label>X: <input type="number" id="posX" value="300" min="0" max="700"></label>
+      <label>Y: <input type="number" id="posY" value="200" min="0" max="500"></label>
+      <button onclick="drawPyramid()">Отрисовать</button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
