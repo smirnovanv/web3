@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.row-name {
+  text-align: left;
+  width: 100px;
+}
+
+.sub-3-header {
+  max-width: 60px;
+  hyphens: auto;
+}
+
+.body-cell {
+  text-align: center;
+}
