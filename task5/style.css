@@ -1,0 +1,26 @@
+.header {
+  padding: 10px 20px;
+}
+
+.content {
+  padding: 10px 20px;
+}
+
+.submit-button {
+  max-width: 200px;
+  padding: 10px 20px;
+  background-color: #a0d911;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.submit-button:hover {
+  background-color: #7cb305;
+}
+
+.calc-result {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
