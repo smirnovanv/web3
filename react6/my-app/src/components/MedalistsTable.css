@@ -1,0 +1,44 @@
+.medalists-container {
+  margin: 2rem 0;
+}
+
+.medalists-title {
+  color: #1a5276;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #d4eaf7;
+  padding-bottom: 0.7rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.medalists-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  font-family: Arial, sans-serif;
+}
+
+.medalists-table thead tr {
+  background-color: #e8f4fd;
+}
+
+.medalists-table th {
+  padding: 0.8rem 1rem;
+  border: 1px solid #d4eaf7;
+  text-align: left;
+  font-weight: 600;
+  color: #1a5276;
+}
+
+.medalists-table tbody td {
+  padding: 0.7rem 1rem;
+  border: 1px solid #e0ecf5;
+}
+
+.medalists-table tbody tr:nth-child(even) {
+  background-color: #f8faff;
+}
+

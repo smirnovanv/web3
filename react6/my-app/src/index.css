@@ -1,0 +1,55 @@
+:root {
+  --bg: #f1f1f1;
+  --sans: "Times New Roman", Times, serif;
+  --heading: "Times New Roman", Times, serif;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 90%;
+  max-width: 90%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  text-align :  center;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+}
+
+nav ul {}
+
+nav li {}
+
+nav li a {}
+
+nav li a:hover {}
+
+article {}
+
+footer {}
+
+p {
+  margin: 0;
+}
