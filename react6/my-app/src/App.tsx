@@ -7,6 +7,7 @@ import { Home } from './pages/Home';
 import { Contacts } from './pages/Contacts';
 import { LabsNavigation } from './components/LabsNavigation';
 import { SyncSkating } from './pages/SyncSkating';
+import { OlympicMedalists } from './pages/OlympicMedalists';
 
 function App() {
   return (
@@ -20,19 +21,15 @@ function App() {
           maxWidth: '1400px',
           margin: '0 auto',
           padding: '2rem',
-          minHeight: 'calc(100vh - 200px)',
+          minHeight: 'calc(100vh - 350px)',
           alignItems: 'flex-start'
         }}>
-          <article style={{
-            flex: '1',
-            minWidth: 0
-          }}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/sync-skating" element={<SyncSkating />} />
+              <Route path="/olympic-medalists" element={<OlympicMedalists />} />
             </Routes>
-          </article>
           <aside style={{
             flex: '0 0 300px',
             padding: '1.5rem',

@@ -1,8 +1,8 @@
 export const Contacts = () => {
   return (
-    <div>
+    <article>
       <h1>Контакты</h1>
       <p>Мои контакты здесь</p>
-    </div>
+    </article>
   );
 };

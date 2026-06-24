@@ -1,0 +1,97 @@
+.olympic-medalists-page {
+    background-color: #e6f0f5;
+
+    h2:first-of-type {
+    border: 2px solid #333;
+    text-decoration: underline;
+    padding: 8px 12px;
+    }
+
+    .image-container {
+    float: right;
+    margin: 0 0 16px 20px;
+    max-width: 300px;
+    }
+
+  .image-container img {
+    border: 2px dashed #666;
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  section:first-of-type ul {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+
+
+  section:first-of-type > ul:first-of-type > li:last-child::marker {
+    content: "8. ";
+  }
+  section:first-of-type > ul:first-of-type > li:last-child {
+    list-style-type: none;
+  }
+
+  section:first-of-type ul ul {
+    list-style-type: circle;
+  }
+
+  .medals-count-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    list-style-position: inside;
+    padding-left: 0;
+    font-weight: bold;
+  }
+  .medals-count-list li {
+    font-weight: bold;
+  }
+
+section:last-of-type p:last-of-type {
+  width: 208px;
+  height: 100px;
+  background-color: #e8e0d8;
+  padding: 8px;
+  overflow: auto;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #4a6fa5;
+  color: white;
+  padding: 8px 12px;
+  border: 1px solid #3a5a8a;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #d9e2ed;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+}
+
+table td, table th {
+  border: 1px solid #999;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* см. на ссылках на Википедию, т.к. навигация вне страницы */
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #6a4c8a;
+}
+}

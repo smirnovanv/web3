@@ -38,18 +38,52 @@ header {
   padding: 20px;
 }
 
-nav ul {}
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
 
-nav li {}
+nav li {
+  float: left;
+}
 
-nav li a {}
+nav li a {
+  display: block ;
+  color: #FFF ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 14px 16px ;
 
-nav li a:hover {}
+}
 
-article {}
+nav li a:hover {
+  background-color: #111;
+}
 
-footer {}
+article {
+  background-color: #fff;
+  padding: 20px;
+  flex: 1;
+  min-width: 0;
+}
+
+footer {
+  background-color: #ddd;
+  margin-top: 8px;
+  padding: 10px;
+}
 
 p {
   margin: 0;
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 4px;
+  margin: 10px 15px;
+  vertical-align: bottom;
 }
