@@ -46,7 +46,7 @@ nav ul {
   padding: 0;
 }
 
-nav li {
+nav.main-navigation li {
   float: left;
 }
 
@@ -56,7 +56,6 @@ nav li a {
   text-align: center ;
   text-decoration: none ;
   padding: 14px 16px ;
-
 }
 
 nav li a:hover {
