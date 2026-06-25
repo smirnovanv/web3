@@ -1,5 +1,3 @@
-// import './Lab5.css';
-
 export const Lab5 = () => {
   // ============================================
   // 4.1. Объявить две числовых переменных
@@ -209,7 +207,7 @@ export const Lab5 = () => {
 
   return (
     <article className="lab5-page">
-      <h1>Лабораторная 5</h1>
+      <h2>Лабораторная 5</h2>
 
       <button 
         onClick={showThemeAlert}

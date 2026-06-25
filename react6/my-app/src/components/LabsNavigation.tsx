@@ -7,7 +7,8 @@ export const LabsNavigation = () => {
         <li><Link to="/">Лабораборная 1. Фигурное катание как вид спорта</Link></li>
         <li><Link to="/sync-skating">Лабораторная 2. Синхронное фигурное катание</Link></li>
         <li><Link to="/olympic-medalists">Лабораторная 4. Призеры Олимпийских игр</Link></li>
-        <li><Link to="/test">Лабораторная 5. Javascript</Link></li>
+        <li><Link to="/lab-5">Лабораторная 5. Javascript</Link></li>
+        <li><Link to="/lab-6">Лабораторная 6. Взаимодействие с сервером</Link></li>
       </ul>
     </nav>
   );

@@ -9,6 +9,7 @@ import { LabsNavigation } from './components/LabsNavigation';
 import { SyncSkating } from './pages/SyncSkating';
 import { OlympicMedalists } from './pages/OlympicMedalists';
 import { Lab5 } from './pages/Lab5';
+import { Lab6 } from './pages/Lab6';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
               <Route path="/sync-skating" element={<SyncSkating />} />
               <Route path="/olympic-medalists" element={<OlympicMedalists />} />
               <Route path="/lab-5" element={<Lab5 />} />
+              <Route path="/lab-6" element={<Lab6 />} />
             </Routes>
           <aside style={{
             flex: '0 0 300px',
